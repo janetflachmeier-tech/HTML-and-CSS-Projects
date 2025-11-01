@@ -1,0 +1,54 @@
+/* Step 1: Text styling */
+body {
+  font-family: 'Georgia', serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #fdfaf6;
+  line-height: 1.6;
+}
+
+/* Step 2: Form styling */
+form input[type="text"],
+form input[type="email"],
+form textarea,
+form input[type="submit"] {
+  width: 100%;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Optional: Add gentle hover effect for submit button */
+form input[type="submit"] {
+  background-color: #d8cfc4;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+  background-color: #c2b8ae;
+}
+
+/* Optional: Navigation styling */
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  background-color: #eae2d6;
+  padding: 10px 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #5a4e42;
+  font-weight: bold;
+}
+
+/* Optional: Section spacing */
+section {
+  padding: 40px 20px;
+}
