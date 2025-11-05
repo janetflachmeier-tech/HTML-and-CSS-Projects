@@ -20,22 +20,75 @@
 
   <!-- Home Section -->
   <section id="home">
-    <h1>Welcome to My Wellness Rituals</h1>
-    <p>Explore sensory self-care, body care rituals, and calming routines that bring comfort and clarity.</p>
+    <!-- Background Video -->
+    <div class="video-background">
+      <video autoplay muted loop playsinline>
+        <source src="media/facemask.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    
+    <!-- Home Content -->
+    <div class="home-content">
+      <h1>Discover Your Sanctuary of Sensory Bliss</h1>
+      <p>Immerse yourself in a world of calming scents and luxurious wellness rituals. Let our curated collection of aromatic treasures guide you on a journey of self-care and tranquility, where every breath brings you closer to inner peace.</p>
+    </div>
   </section>
 
   <!-- Gallery Section -->
   <section id="gallery">
     <h2>Fragrance & Body Care Gallery</h2>
-    <img src="images/lavender_oil.jpg" alt="Lavender oil bottle" width="300" />
-    <img src="images/bath_ritual.jpg" alt="Peaceful bath ritual" width="300" />
+    <div class="gallery gallery-4">
+      <div class="gallery-item">
+        <img src="images/lavander.jpg" alt="Lavender bottle" />
+        <div class="caption">
+          <h3>Lavender Essence</h3>
+          <p>Calming lavender for peaceful moments</p>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/calmness.jpg" alt="Peaceful bath ritual" />
+        <div class="caption">
+          <h3>Peaceful Rituals</h3>
+          <p>Bath rituals for ultimate relaxation</p>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/natural.jpg" alt="Natural beauty products" />
+        <div class="caption">
+          <h3>Natural Beauty</h3>
+          <p>Pure, natural ingredients for your skin</p>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/scents.jpg" alt="Aromatic scents collection" />
+        <div class="caption">
+          <h3>Aromatic Collection</h3>
+          <p>Curated scents for every mood</p>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- Video Section -->
   <section id="video">
     <h2>Watch a Ritual in Motion</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID"
-      title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+    <div class="video-container">
+      <div class="video-box">
+        <h3>Face Mask Ritual</h3>
+        <video width="560" height="315" controls>
+          <source src="media/facemask.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="video-box">
+        <h3>Beauty Drops Application</h3>
+        <video width="560" height="315" controls>
+          <source src="media/beautydrops.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
   </section>
 
   <!-- Contact Form Section -->
